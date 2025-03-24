@@ -1,0 +1,8 @@
+<div class="jobInfo" *ngIf="jobDetail">
+
+    <p>{{jobDetail.title}}, {{jobDetail.employer}}, ({{jobDetail.duration}}) </p>
+    <p>{{jobDetail.description}}</p>
+
+    <button class="back" routerLink="/jobs">Back</button>
+
+</div>
